@@ -1,0 +1,48 @@
+{
+  "name": "ROOMZERO",
+  "identifier": "io.github.pinc3ng.roomzero",
+  "subtitle": "Survival horror untuk iPhone",
+  "description": "Source SideStore / AltStore resmi untuk ROOMZERO.",
+  "iconURL": "https://pinc3ng.github.io/roomzero-ios/icon.png",
+  "website": "https://pinc3ng.github.io/roomzero-ios/",
+  "tintColor": "#D9A441",
+  "featuredApps": ["com.uph.roomzero"],
+  "apps": [
+    {
+      "name": "ROOMZERO",
+      "bundleIdentifier": "com.uph.roomzero",
+      "developerName": "ROOMZERO Team",
+      "subtitle": "Survival horror · 1–4 pemain",
+      "localizedDescription": "Kamu terjebak di Kessler Deep Research Annex. Selesaikan teka-teki, kumpulkan petunjuk, dan bersembunyi dari makhluk yang memburumu. 10 peta, 10 survivor, co-op 2–4 pemain lewat Wi-Fi atau online.",
+      "iconURL": "https://pinc3ng.github.io/roomzero-ios/icon.png",
+      "tintColor": "#D9A441",
+      "category": "games",
+      "screenshots": [
+        "https://pinc3ng.github.io/roomzero-ios/screenshots/menu.jpg",
+        "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
+        "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
+      ],
+      "version": "1.4",
+      "versionDate": "2026-11-12",
+      "versionDescription": "Nyawa per pemain di co-op, bar nyawa dan minimap, mulai ulang dengan kode baru saat kalah, banyak perbaikan.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.4/ROOMZERO-1.4.ipa",
+      "size": 0,
+      "versions": [
+        {
+          "version": "1.4",
+          "buildVersion": "14",
+          "date": "2026-11-12",
+          "localizedDescription": "Nyawa per pemain di co-op, bar nyawa dan minimap, mulai ulang dengan kode baru saat kalah, banyak perbaikan.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.4/ROOMZERO-1.4.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}

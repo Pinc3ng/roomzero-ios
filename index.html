@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROOMZERO untuk iPhone</title>
+<meta name="description" content="Pasang ROOMZERO di iPhone gratis lewat SideStore.">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root {
+    --bg: #0b0f12; --panel: #141b20; --line: #24323a; --text: #e8e4da; --muted: #9aa6ab;
+    --amber: #d9a441; --red: #c4463a; --cyan: #6fc7d1;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 28px 16px 64px; }
+  header { display: flex; gap: 16px; align-items: center; margin-bottom: 8px; }
+  header img { width: 76px; height: 76px; border-radius: 18px; border: 1px solid var(--line); }
+  h1 { font-size: 30px; letter-spacing: 3px; margin: 0; }
+  .sub { color: var(--muted); margin: 2px 0 0; }
+  .ver { display: inline-block; margin-top: 6px; padding: 2px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--amber); font-size: 13px; }
+  h2 { font-size: 20px; margin: 34px 0 10px; letter-spacing: .5px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin: 14px 0; }
+  .card.warn { border-color: #5a3a1e; }
+  .btns { display: grid; gap: 10px; margin-top: 12px; }
+  a.btn, button.btn { display: block; text-align: center; padding: 14px 16px; border-radius: 12px; font-weight: 700; font-size: 16px; text-decoration: none; border: 0; cursor: pointer; font-family: inherit; }
+  .primary { background: var(--amber); color: #1a1206; }
+  .secondary { background: transparent; color: var(--text); border: 1px solid var(--line) !important; }
+  ol { padding-left: 22px; margin: 8px 0; }
+  li { margin: 8px 0; }
+  code { background: #0e1418; border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font-size: 14px; word-break: break-all; }
+  .muted { color: var(--muted); font-size: 14px; }
+  .shots { display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 12px; }
+  .shots img { width: 100%; border-radius: 10px; border: 1px solid var(--line); }
+  .tag { color: var(--red); font-weight: 700; }
+  #copied { color: var(--cyan); font-size: 14px; min-height: 20px; margin-top: 6px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>ROOMZERO</h1>
+      <p class="sub">Survival horror · 1–4 pemain · iPhone &amp; iPad</p>
+      <span class="ver" id="ver">Versi 1.4</span>
+    </div>
+  </header>
+
+  <div class="card">
+    <strong>Gratis, tanpa App Store.</strong> ROOMZERO dipasang lewat <strong>SideStore</strong> dengan Apple ID-mu sendiri.
+    Laptop hanya dibutuhkan <strong>sekali</strong> untuk memasang SideStore; setelah itu instal, update, dan perpanjang langsung dari iPhone.
+  </div>
+
+  <h2>Sudah punya SideStore?</h2>
+  <div class="card">
+    Buka halaman ini di <strong>Safari</strong> di iPhone, lalu:
+    <div class="btns">
+      <a class="btn primary" id="add-sidestore" href="#">Tambahkan ROOMZERO ke SideStore</a>
+      <a class="btn secondary" id="add-altstore" href="#">Tambahkan ke AltStore</a>
+      <button class="btn secondary" id="copy">Salin link source</button>
+      <a class="btn secondary" id="ipa" href="https://github.com/Pinc3ng/roomzero-ios/releases/latest">Unduh file .ipa (manual)</a>
+    </div>
+    <div id="copied"></div>
+    <p class="muted">Kalau tombol pertama tidak membuka SideStore: salin link source, buka SideStore → <em>Sources</em> → <em>+</em> → tempel link → lalu di <em>Browse</em> pilih ROOMZERO → <em>Get</em>.</p>
+  </div>
+
+  <h2>Belum punya SideStore? (sekali saja, butuh laptop)</h2>
+  <div class="card">
+    <ol>
+      <li>Di laptop (Windows / Mac / Linux), buka panduan resmi <a href="https://docs.sidestore.io" style="color:var(--cyan)">docs.sidestore.io</a> dan ikuti cara instal yang disarankan di sana (saat ini memakai aplikasi <em>iloader</em>).</li>
+      <li>Colokkan iPhone ke laptop, login dengan <strong>Apple ID-mu sendiri</strong> di aplikasi pemasang, lalu pasang SideStore. Langkah ini juga membuat "pairing file" yang dibutuhkan SideStore.</li>
+      <li>Di iPhone: <em>Pengaturan → Umum → VPN &amp; Manajemen Perangkat</em> → ketuk Apple ID-mu → <em>Percayai</em>.</li>
+      <li>iOS 16 ke atas: nyalakan <em>Pengaturan → Privasi &amp; Keamanan → Mode Pengembang</em>, lalu restart iPhone.</li>
+      <li>Pasang aplikasi VPN lokal yang diminta SideStore (gratis di App Store) — SideStore memakainya untuk memasang dan memperpanjang aplikasi tanpa laptop.</li>
+      <li>Buka SideStore, login Apple ID, lalu kembali ke bagian <strong>"Sudah punya SideStore?"</strong> di atas.</li>
+    </ol>
+    <p class="muted">Langkah pemasangan SideStore bisa berubah mengikuti iOS terbaru; kalau ada yang berbeda, ikuti docs.sidestore.io.</p>
+  </div>
+
+  <h2>Penting diketahui</h2>
+  <div class="card warn">
+    <ol>
+      <li><span class="tag">7 hari:</span> aplikasi dari Apple ID gratis berlaku 7 hari. Seminggu sekali buka SideStore (VPN-nya menyala) → <em>My Apps</em> → <em>Refresh</em>. Data game-mu tidak hilang.</li>
+      <li><span class="tag">Batas 3 aplikasi:</span> Apple ID gratis hanya bisa 3 aplikasi sideload aktif sekaligus (SideStore sendiri dihitung satu).</li>
+      <li><span class="tag">Update:</span> kalau ada versi baru, SideStore memberi tahu — tinggal ketuk <em>Update</em>.</li>
+      <li><span class="tag">Co-op:</span> semua pemain harus memakai versi yang sama (lihat versi di menu utama).</li>
+      <li>"Tidak dapat memverifikasi aplikasi" → ulangi langkah <em>Percayai</em> di atas. "Batas aplikasi tercapai" → hapus satu aplikasi sideload lain.</li>
+    </ol>
+  </div>
+
+  <h2>Cuplikan</h2>
+  <div class="shots">
+    <img src="screenshots/menu.jpg" alt="Menu utama">
+    <img src="screenshots/chars.jpg" alt="Pilih karakter">
+    <img src="screenshots/maps.jpg" alt="Pilih peta">
+  </div>
+
+  <footer>
+    ROOMZERO — game survival horror karya mahasiswa. Dibuat dengan Godot 4.7. Kredit aset ada di menu Kredit di dalam game.<br>
+    Source SideStore/AltStore: <code id="src"></code>
+  </footer>
+</main>
+<script>
+  // The source file sits next to this page (GitHub Pages) — its absolute URL is what SideStore needs.
+  var src = new URL('apps.json', location.href).href;
+  document.getElementById('src').textContent = src;
+  document.getElementById('add-sidestore').href = 'sidestore://source?url=' + encodeURIComponent(src);
+  document.getElementById('add-altstore').href = 'altstore://source?url=' + encodeURIComponent(src);
+  document.getElementById('copy').addEventListener('click', function () {
+    var done = function () { document.getElementById('copied').textContent = 'Link source disalin: ' + src; };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(src).then(done, function () { prompt('Salin link ini:', src); });
+    } else { prompt('Salin link ini:', src); }
+  });
+  fetch('apps.json').then(function (r) { return r.json(); }).then(function (j) {
+    var v = j.apps && j.apps[0] && j.apps[0].versions && j.apps[0].versions[0];
+    if (v) {
+      document.getElementById('ver').textContent = 'Versi ' + v.version;
+      if (v.downloadURL) document.getElementById('ipa').href = v.downloadURL;
+    }
+  }).catch(function () {});
+</script>
+</body>
+</html>
