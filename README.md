@@ -2,9 +2,10 @@
 
 Survival horror · 1–4 pemain · iPhone & iPad (iOS 14 ke atas).
 
-ROOMZERO **tidak ada di App Store**. Game ini dipasang gratis lewat aplikasi **SideStore**, memakai **Apple ID milikmu sendiri** (Apple ID biasa, tidak perlu akun developer berbayar).
+ROOMZERO **tidak ada di App Store**. Game ini dipasang gratis memakai **Apple ID milikmu sendiri** (Apple ID biasa, tidak perlu akun developer berbayar). Ada dua cara:
 
-> **Ringkasnya:** pasang SideStore sekali pakai laptop (±15 menit) → setelah itu ROOMZERO dipasang, di-update, dan diperpanjang langsung dari iPhone, tanpa laptop lagi.
+- **Cara 1 — Sideloadly:** paling sederhana; dipasang dan diperpanjang (tiap 7 hari) dari laptop.
+- **Cara 2 — SideStore:** laptop hanya sekali di awal; setelah itu pasang, update, dan perpanjang dari iPhone saja.
 
 Halaman pemasangan (buka di **Safari** di iPhone): **https://pinc3ng.github.io/roomzero-ios/**
 
@@ -14,12 +15,46 @@ Halaman pemasangan (buka di **Safari** di iPhone): **https://pinc3ng.github.io/r
 
 - iPhone / iPad dengan **iOS 14 atau lebih baru**, ruang kosong ±1 GB.
 - **Apple ID** (yang dipakai di App Store juga boleh) — sebaiknya sudah pakai verifikasi dua langkah.
-- **Sekali saja:** laptop/PC (Windows, Mac, atau Linux) + **kabel USB** iPhone.
+- Laptop/PC (Windows atau Mac) + **kabel USB** iPhone — untuk Sideloadly setiap pemasangan, untuk SideStore cukup sekali.
 - Internet (Wi-Fi lebih baik; file game ±210 MB).
 
 ---
 
-## Bagian A — Pasang SideStore (sekali saja, pakai laptop)
+## Cara 1 — Sideloadly (pakai laptop, paling sederhana)
+
+Cocok kalau kamu punya laptop/PC sendiri. Setiap pemasangan dan perpanjangan dilakukan dari laptop.
+
+> Petunjuk resmi Sideloadly ada di **https://sideloadly.io** — kalau ada langkah yang berbeda dari yang tertulis di sini, ikuti yang di sana.
+
+**Siapkan laptop (sekali):**
+
+1. **Windows:** pasang **iTunes** dan **iCloud** versi dari situs Apple (Sideloadly menyarankan versi *non*-Microsoft Store; cek petunjuk di sideloadly.io). **Mac:** tidak perlu.
+2. Unduh dan pasang **Sideloadly** dari **https://sideloadly.io**.
+3. Unduh file game terbaru **`ROOMZERO-x.y.z.ipa`** dari halaman [Releases](https://github.com/Pinc3ng/roomzero-ios/releases/latest).
+
+**Pasang ROOMZERO:**
+
+1. **Colokkan iPhone** ke laptop pakai kabel → di iPhone ketuk **Percayai Komputer Ini** dan masukkan kode sandi.
+2. **Buka Sideloadly** → seret file `.ipa` ke kotak bergambar IPA di Sideloadly.
+3. Pastikan iPhone-mu terpilih di kolom **iDevice**, ketik **Apple ID**-mu di kolom **Apple account** → tekan **Start**.
+4. Masukkan **kata sandi Apple ID** (dan kode verifikasi dua langkah kalau diminta) di jendela Sideloadly di laptopmu sendiri. Tunggu sampai muncul **Done**.
+5. Di iPhone: **Pengaturan → Umum → VPN & Manajemen Perangkat** → ketuk Apple ID-mu → **Percayai**.
+6. **iOS 16 ke atas:** **Pengaturan → Privasi & Keamanan → Mode Pengembang** → nyalakan → iPhone restart → ketuk **Nyalakan**.
+7. Buka **ROOMZERO** dari layar utama. Selesai!
+
+**Penting:**
+
+- **Berlaku 7 hari** (aturan Apple untuk Apple ID gratis). Sebelum habis, ulangi langkah *Pasang ROOMZERO* dengan file `.ipa` yang sama — **data game tidak hilang**. Sideloadly juga punya fitur perpanjangan otomatis lewat Wi-Fi selama laptop menyala dan iPhone di Wi-Fi yang sama (lihat sideloadly.io).
+- **Update ke versi baru:** unduh `.ipa` terbaru dari Releases → pasang dengan cara yang sama → data game tetap ada.
+- **Batas 3 aplikasi:** Apple ID gratis hanya boleh 3 aplikasi sideload aktif sekaligus.
+- **Main bareng:** iPhone, Android, dan PC bisa satu room lewat **Multiplayer → Buat room / kode room** asal versinya sama (lihat Bagian D).
+
+---
+
+## Cara 2 — SideStore (laptop sekali saja)
+
+
+### Bagian A — Pasang SideStore (sekali saja, pakai laptop)
 
 > Langkah resmi bisa berubah mengikuti versi iOS terbaru. Kalau ada yang berbeda dari yang tertulis di sini, ikuti **https://docs.sidestore.io** (panduan resmi SideStore).
 
@@ -35,7 +70,7 @@ Halaman pemasangan (buka di **Safari** di iPhone): **https://pinc3ng.github.io/r
 
 ---
 
-## Bagian B — Pasang ROOMZERO (dari iPhone, tanpa laptop)
+### Bagian B — Pasang ROOMZERO (dari iPhone, tanpa laptop)
 
 1. Di iPhone, buka **Safari** → **https://pinc3ng.github.io/roomzero-ios/**
 2. Ketuk **"Tambahkan ROOMZERO ke SideStore"** → SideStore terbuka → **Tambahkan / Add**.
@@ -50,7 +85,7 @@ Halaman pemasangan (buka di **Safari** di iPhone): **https://pinc3ng.github.io/r
 
 ---
 
-## Bagian C — Supaya tidak kedaluwarsa (sekali setup)
+### Bagian C — Supaya tidak kedaluwarsa (sekali setup)
 
 Aplikasi dari Apple ID gratis **berlaku 7 hari** (aturan Apple, tidak bisa dihilangkan). Buat iPhone memperpanjangnya sendiri setiap hari:
 
@@ -90,6 +125,7 @@ Kalau sempat kedaluwarsa (ROOMZERO tidak mau terbuka): nyalakan VPN lokal → bu
 | SideStore gagal memasang / refresh | Pastikan **VPN lokal menyala** dan ada internet, lalu coba lagi. |
 | ROOMZERO tidak mau terbuka setelah seminggu | Sudah kedaluwarsa → SideStore → My Apps → **Refresh** (lihat Bagian C supaya otomatis). |
 | Tidak bisa masuk room teman | Cek **versi game sama**, kode room benar, dan host masih di layar room (belum mulai main). |
+| Browser bilang file `.ipa` "tidak umum" / "mungkin berbahaya" | Peringatan umum untuk file aplikasi yang tidak berasal dari toko resmi — bukan tanda virus. Unduh hanya dari halaman [Releases](https://github.com/Pinc3ng/roomzero-ios/releases) repo ini, lalu pilih **Simpan / Keep**. |
 | Mode Pengembang tidak muncul | Muncul setelah SideStore terpasang lewat laptop (Bagian A langkah 3). |
 
 ---
@@ -98,6 +134,10 @@ Kalau sempat kedaluwarsa (ROOMZERO tidak mau terbuka): nyalakan VPN lokal → bu
 
 - `apps.json` — source SideStore / AltStore (daftar versi ROOMZERO).
 - File `.ipa` ada di [Releases](https://github.com/Pinc3ng/roomzero-ios/releases). File ini **belum ditandatangani**; SideStore menandatanganinya dengan Apple ID pemain saat dipasang.
-- Versi baru: build `.ipa` (GitHub Actions di repo game) → buat Release `vX.Y.Z` berisi `ROOMZERO-X.Y.Z.ipa` → tambahkan entri baru **di paling atas** daftar `versions` di `apps.json` (+ perbarui `version`, `downloadURL`, `size` di level aplikasi).
+- **Versi baru (satu perintah):** di repo game, naikkan versi iOS di `export_presets.cfg` (`application/short_version` dan `application/version`), commit + push, lalu jalankan dari Git Bash:
+  ```
+  bash tools/ios/publish_ios.sh 1.4.2 "Apa yang baru" --build
+  ```
+  Skrip itu membangun `.ipa` di GitHub Actions, membuat Release `v1.4.2`, dan menambahkan versinya di `apps.json` — pemain langsung melihat **Update** di SideStore.
 
 Kredit aset (suara, model, tekstur, font) ada di menu **Kredit** di dalam game.
