@@ -8,7 +8,7 @@ ROOMZERO dipasang gratis lewat **SideStore** dengan Apple ID milik pemain sendir
 
 1. **Sekali saja (butuh laptop):** pasang SideStore mengikuti panduan resmi di <https://docs.sidestore.io>.
 2. **Setelah itu (tanpa laptop):** buka halaman di atas → *Tambahkan ROOMZERO ke SideStore* → *Get*.
-3. **Tiap 7 hari:** buka SideStore → *My Apps* → *Refresh* (data game tidak hilang).
+3. **Tiap 7 hari:** buka SideStore → *My Apps* → *Refresh* (data game tidak hilang) — atau pasang perpanjangan otomatis harian lewat app Shortcuts (*Otomatisasi* → *Waktu* → tindakan SideStore *Refresh All Apps*); langkah lengkapnya ada di halaman pemasangan.
 
 Source SideStore / AltStore (kalau ditambahkan manual):
 
