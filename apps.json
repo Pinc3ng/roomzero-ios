@@ -24,12 +24,21 @@
         "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
         "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
       ],
-      "version": "1.6",
-      "versionDate": "2026-11-14",
-      "versionDescription": "Tutorial singkat wajib sebelum misi, tulisan di layar lebih sedikit, kamera first/third person diperbaiki, loading lebih cepat, dan menu tidak macet. Main bareng harus sama-sama versi 1.6.",
-      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.6/ROOMZERO-1.6.ipa",
-      "size": 163110006,
+      "version": "1.6.1",
+      "versionDate": "2026-11-15",
+      "versionDescription": "Sekali ditangkap monster sekarang cuma kurang 1 bar nyawa, loading lebih mulus, kamera tidak sempit setelah keluar loker, bayangan kepala di first person, dan genggaman senter lebih rapat. Bisa main bareng pemain versi 1.6.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.6.1/ROOMZERO-1.6.1.ipa",
+      "size": 163121021,
       "versions": [
+        {
+          "version": "1.6.1",
+          "buildVersion": "18",
+          "date": "2026-11-15",
+          "localizedDescription": "Sekali ditangkap monster sekarang cuma kurang 1 bar nyawa, loading lebih mulus, kamera tidak sempit setelah keluar loker, bayangan kepala di first person, dan genggaman senter lebih rapat. Bisa main bareng pemain versi 1.6.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.6.1/ROOMZERO-1.6.1.ipa",
+          "size": 163121021,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.6",
           "buildVersion": "17",
