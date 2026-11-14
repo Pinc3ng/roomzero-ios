@@ -24,12 +24,21 @@
         "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
         "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
       ],
-      "version": "1.5",
+      "version": "1.6",
       "versionDate": "2026-11-14",
-      "versionDescription": "Map 1–9 lebih luas dengan misi lebih panjang, kamera first person, kepala karakter tidak hilang lagi, tangan menggenggam senter, menu lebih enak di HP, dan banyak perbaikan. Main bareng harus sama-sama versi 1.5.",
-      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.5/ROOMZERO-1.5.ipa",
-      "size": 163063794,
+      "versionDescription": "Tutorial singkat wajib sebelum misi, tulisan di layar lebih sedikit, kamera first/third person diperbaiki, loading lebih cepat, dan menu tidak macet. Main bareng harus sama-sama versi 1.6.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.6/ROOMZERO-1.6.ipa",
+      "size": 163110006,
       "versions": [
+        {
+          "version": "1.6",
+          "buildVersion": "17",
+          "date": "2026-11-14",
+          "localizedDescription": "Tutorial singkat wajib sebelum misi, tulisan di layar lebih sedikit, kamera first/third person diperbaiki, loading lebih cepat, dan menu tidak macet. Main bareng harus sama-sama versi 1.6.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.6/ROOMZERO-1.6.ipa",
+          "size": 163110006,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.5",
           "buildVersion": "16",
