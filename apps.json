@@ -24,12 +24,21 @@
         "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
         "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
       ],
-      "version": "1.4.1",
-      "versionDate": "2026-11-13",
-      "versionDescription": "Kotak kode room diperbaiki untuk keyboard HP (huruf tidak lagi dobel). Tetap bisa main bareng pemain versi 1.4.",
-      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.4.1/ROOMZERO-1.4.1.ipa",
-      "size": 209102425,
+      "version": "1.5",
+      "versionDate": "2026-11-14",
+      "versionDescription": "Map 1–9 lebih luas dengan misi lebih panjang, kamera first person, kepala karakter tidak hilang lagi, tangan menggenggam senter, menu lebih enak di HP, dan banyak perbaikan. Main bareng harus sama-sama versi 1.5.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.5/ROOMZERO-1.5.ipa",
+      "size": 163063794,
       "versions": [
+        {
+          "version": "1.5",
+          "buildVersion": "16",
+          "date": "2026-11-14",
+          "localizedDescription": "Map 1–9 lebih luas dengan misi lebih panjang, kamera first person, kepala karakter tidak hilang lagi, tangan menggenggam senter, menu lebih enak di HP, dan banyak perbaikan. Main bareng harus sama-sama versi 1.5.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.5/ROOMZERO-1.5.ipa",
+          "size": 163063794,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.4.1",
           "buildVersion": "15",
