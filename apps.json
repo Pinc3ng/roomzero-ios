@@ -24,12 +24,21 @@
         "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
         "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
       ],
-      "version": "1.7.1",
+      "version": "1.7.2",
       "versionDate": "2026-11-15",
-      "versionDescription": "Konsol kontrol, pompa, kompresor, rak server, rak arsip, meja radio, dan meja lab sekarang model asli HD di 6 map. Layar darurat di Meltdown sekarang menempel di dinding. Co-op harus sama-sama versi 1.7.1.",
-      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.7.1/ROOMZERO-1.7.1.ipa",
-      "size": 201338130,
+      "versionDescription": "Tangan yang memegang senter di first person sekarang posisinya sama untuk semua karakter (dulu tangan karakter laki-laki terpotong di tepi kiri layar). Bisa main co-op bareng pemain versi 1.7.1.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.7.2/ROOMZERO-1.7.2.ipa",
+      "size": 201338600,
       "versions": [
+        {
+          "version": "1.7.2",
+          "buildVersion": "21",
+          "date": "2026-11-15",
+          "localizedDescription": "Tangan yang memegang senter di first person sekarang posisinya sama untuk semua karakter (dulu tangan karakter laki-laki terpotong di tepi kiri layar). Bisa main co-op bareng pemain versi 1.7.1.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.7.2/ROOMZERO-1.7.2.ipa",
+          "size": 201338600,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.7.1",
           "buildVersion": "20",
