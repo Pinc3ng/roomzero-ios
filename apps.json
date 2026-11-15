@@ -24,12 +24,21 @@
         "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
         "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
       ],
-      "version": "1.6.1",
+      "version": "1.7",
       "versionDate": "2026-11-15",
-      "versionDescription": "Sekali ditangkap monster sekarang cuma kurang 1 bar nyawa, loading lebih mulus, kamera tidak sempit setelah keluar loker, bayangan kepala di first person, dan genggaman senter lebih rapat. Bisa main bareng pemain versi 1.6.",
-      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.6.1/ROOMZERO-1.6.1.ipa",
-      "size": 163121021,
+      "versionDescription": "Properti di semua map sekarang model asli HD (panel listrik, peti, tong, generator, meja, rak, dll). Hantu lebih pintar dan tidak hilang setelah jumpscare, langsung mengejar lagi. Puzzle di Hard ke atas lebih susah, tiap map lebih panjang dan punya cerita sendiri. Genggaman senter lebih rapi, teman co-op bisa lihat kamu sembunyi di loker, dan setting grafis HP dipisah dari PC. Co-op harus sama-sama versi 1.7.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.7/ROOMZERO-1.7.ipa",
+      "size": 188850947,
       "versions": [
+        {
+          "version": "1.7",
+          "buildVersion": "19",
+          "date": "2026-11-15",
+          "localizedDescription": "Properti di semua map sekarang model asli HD (panel listrik, peti, tong, generator, meja, rak, dll). Hantu lebih pintar dan tidak hilang setelah jumpscare, langsung mengejar lagi. Puzzle di Hard ke atas lebih susah, tiap map lebih panjang dan punya cerita sendiri. Genggaman senter lebih rapi, teman co-op bisa lihat kamu sembunyi di loker, dan setting grafis HP dipisah dari PC. Co-op harus sama-sama versi 1.7.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.7/ROOMZERO-1.7.ipa",
+          "size": 188850947,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.6.1",
           "buildVersion": "18",
