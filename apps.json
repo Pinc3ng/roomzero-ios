@@ -24,12 +24,21 @@
         "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
         "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
       ],
-      "version": "1.9",
+      "version": "1.10",
       "versionDate": "2026-11-18",
-      "versionDescription": "Logo baru, font judul baru, dokumen tampil sebagai kertas ketikan mesin tik, monitor detak jantung (EKG) di HUD, meja resepsionis map 2 jadi model asli. Co-op harus sama-sama versi 1.9.",
-      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.9/ROOMZERO-1.9.ipa",
-      "size": 202224761,
+      "versionDescription": "Kartu \"Item didapat\" saat mengambil barang, ruang aman di area awal tiap map (makhluk tak bisa menangkapmu di sana), map 2 Jejak Arsip dengan wallpaper, plester dan lantai kayu baru. Co-op harus sama-sama versi 1.10.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.10/ROOMZERO-1.10.ipa",
+      "size": 202232997,
       "versions": [
+        {
+          "version": "1.10",
+          "buildVersion": "24",
+          "date": "2026-11-18",
+          "localizedDescription": "Kartu \"Item didapat\" saat mengambil barang, ruang aman di area awal tiap map (makhluk tak bisa menangkapmu di sana), map 2 Jejak Arsip dengan wallpaper, plester dan lantai kayu baru. Co-op harus sama-sama versi 1.10.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.10/ROOMZERO-1.10.ipa",
+          "size": 202232997,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.9",
           "buildVersion": "23",
