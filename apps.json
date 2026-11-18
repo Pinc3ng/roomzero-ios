@@ -24,12 +24,21 @@
         "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
         "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
       ],
-      "version": "1.7.2",
-      "versionDate": "2026-11-15",
-      "versionDescription": "Tangan yang memegang senter di first person sekarang posisinya sama untuk semua karakter (dulu tangan karakter laki-laki terpotong di tepi kiri layar). Bisa main co-op bareng pemain versi 1.7.1.",
-      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.7.2/ROOMZERO-1.7.2.ipa",
-      "size": 201338600,
+      "version": "1.8",
+      "versionDate": "2026-11-18",
+      "versionDescription": "Grafis baru: tampilan sinematik di PC High/Ultra, jendela malam dengan cahaya bulan dan kusen pintu, pola cahaya senter, kabut lebih tebal, wallpaper dan lantai kayu baru. Loading map lebih cepat, tekstur lebih ringan. Co-op harus sama-sama versi 1.8.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.8/ROOMZERO-1.8.ipa",
+      "size": 201213165,
       "versions": [
+        {
+          "version": "1.8",
+          "buildVersion": "22",
+          "date": "2026-11-18",
+          "localizedDescription": "Grafis baru: tampilan sinematik di PC High/Ultra, jendela malam dengan cahaya bulan dan kusen pintu, pola cahaya senter, kabut lebih tebal, wallpaper dan lantai kayu baru. Loading map lebih cepat, tekstur lebih ringan. Co-op harus sama-sama versi 1.8.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.8/ROOMZERO-1.8.ipa",
+          "size": 201213165,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.7.2",
           "buildVersion": "21",
