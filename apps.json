@@ -24,12 +24,21 @@
         "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
         "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
       ],
-      "version": "1.10",
+      "version": "1.11",
       "versionDate": "2026-11-18",
-      "versionDescription": "Kartu \"Item didapat\" saat mengambil barang, ruang aman di area awal tiap map (makhluk tak bisa menangkapmu di sana), map 2 Jejak Arsip dengan wallpaper, plester dan lantai kayu baru. Co-op harus sama-sama versi 1.10.",
-      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.10/ROOMZERO-1.10.ipa",
-      "size": 202232997,
+      "versionDescription": "Pipa servis dan braket di langit-langit map Gudang Beku, Reaktor Meleleh dan Gelap Total. Co-op harus sama-sama versi 1.11.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.11/ROOMZERO-1.11.ipa",
+      "size": 202237111,
       "versions": [
+        {
+          "version": "1.11",
+          "buildVersion": "25",
+          "date": "2026-11-18",
+          "localizedDescription": "Pipa servis dan braket di langit-langit map Gudang Beku, Reaktor Meleleh dan Gelap Total. Co-op harus sama-sama versi 1.11.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.11/ROOMZERO-1.11.ipa",
+          "size": 202237111,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.10",
           "buildVersion": "24",
