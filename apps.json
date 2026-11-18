@@ -24,12 +24,21 @@
         "https://pinc3ng.github.io/roomzero-ios/screenshots/chars.jpg",
         "https://pinc3ng.github.io/roomzero-ios/screenshots/maps.jpg"
       ],
-      "version": "1.8",
+      "version": "1.9",
       "versionDate": "2026-11-18",
-      "versionDescription": "Grafis baru: tampilan sinematik di PC High/Ultra, jendela malam dengan cahaya bulan dan kusen pintu, pola cahaya senter, kabut lebih tebal, wallpaper dan lantai kayu baru. Loading map lebih cepat, tekstur lebih ringan. Co-op harus sama-sama versi 1.8.",
-      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.8/ROOMZERO-1.8.ipa",
-      "size": 201213165,
+      "versionDescription": "Logo baru, font judul baru, dokumen tampil sebagai kertas ketikan mesin tik, monitor detak jantung (EKG) di HUD, meja resepsionis map 2 jadi model asli. Co-op harus sama-sama versi 1.9.",
+      "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.9/ROOMZERO-1.9.ipa",
+      "size": 202224761,
       "versions": [
+        {
+          "version": "1.9",
+          "buildVersion": "23",
+          "date": "2026-11-18",
+          "localizedDescription": "Logo baru, font judul baru, dokumen tampil sebagai kertas ketikan mesin tik, monitor detak jantung (EKG) di HUD, meja resepsionis map 2 jadi model asli. Co-op harus sama-sama versi 1.9.",
+          "downloadURL": "https://github.com/Pinc3ng/roomzero-ios/releases/download/v1.9/ROOMZERO-1.9.ipa",
+          "size": 202224761,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.8",
           "buildVersion": "22",
